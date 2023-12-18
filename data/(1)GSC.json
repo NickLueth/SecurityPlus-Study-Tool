@@ -1,0 +1,20 @@
+{
+    "Security Controls - 1.1": false,
+    "The CIA Triad - 1.2": false,
+    "Non-repudiation - 1.2": false,
+    "Authentication, Authorization, and Accounting - 1.2": false,
+    "Gap Analysis - 1.2": false,
+    "Zero Trust - 1.2": false,
+    "Physical Security - CompTIA SY0-701 Security+ - 1.2": false,
+    "Deception and Disruption - CompTIA Security+SY0-701 - 1.2": false,
+    "Change Management - 1.3": false,
+    "Technical Change Management - 1.3": false,
+    "Public Key Infrastructure - 1.4": false,
+    "Encrypting Data - 1.4": false,
+    "Key Exchange - 1.4": false,
+    "Encryption Technologies - 1.4": false,
+    "Obfuscation - 1.4": false,
+    "Hashing and Digital Signatures - 1.4": false,
+    "Blockchain Technology - 1.4": false,
+    "Certificates - 1.4": false
+}

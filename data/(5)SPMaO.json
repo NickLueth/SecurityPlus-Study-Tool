@@ -1,0 +1,19 @@
+{
+    "Security Policies - 5.1": false,
+    "Security Standards - 5.1": false,
+    "Security Procedures - 5.1": false,
+    "Security Considerations - 5.1": false,
+    "Data Roles and Responsibilities - 5.1": false,
+    "Risk Management - 5.2": false,
+    "Risk Analysis - 5.2": false,
+    "Risk Management Strategies - 5.2": false,
+    "Business Impact Analysis - 5.2": false,
+    "Third-party Risk Assessment - 5.3": false,
+    "Agreement Types - 5.3": false,
+    "Compliance - 5.4": false,
+    "Privacy - 5.4": false,
+    "Audits and Assessments - 5.5": false,
+    "Penetration Tests - 5.5": false,
+    "Security Awareness - 5.6": false,
+    "User Training - 5.6": false
+}

@@ -1,0 +1,20 @@
+{
+    "Cloud Infrastructures - 3.1": false,
+    "Network Infrastructure Concepts - 3.1": false,
+    "Other Infrastructure Concepts - 3.1": false,
+    "Infrastructure Considerations - 3.1": false,
+    "Secure Infrastructures - 3.2": false,
+    "Intrusion Prevention - 3.2": false,
+    "Network Appliances - 3.2": false,
+    "Port Security - 3.2": false,
+    "Firewall Types - 3.2": false,
+    "Secure Communication - 3.2": false,
+    "Data Types and Classifications - 3.3": false,
+    "States of Data - 3.3": false,
+    "Protecting Data - 3.3": false,
+    "Resiliency - 3.4": false,
+    "Capacity Planning - 3.4": false,
+    "Recovery Testing - 3.4": false,
+    "Backups - 3.4": false,
+    "Power Resiliency - 3.4": false
+}

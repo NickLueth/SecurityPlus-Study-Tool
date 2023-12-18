@@ -1,7 +1,7 @@
 # Security+ Learning Tool
 # Featuring: Professor Messer
 # Created by: Nick Lueth
-# Last updated: 12/8/2023
+# Last updated: 12/18/2023
 
 
 import webbrowser
@@ -10,6 +10,13 @@ from InputIO import *
 
 topics = {}
 links = {}
+acronyms = {}  # Load acronyms
+
+
+def main():
+    load_json()
+    print()
+    main_menu()
 
 
 def load_json():
@@ -17,14 +24,14 @@ def load_json():
     This function loads the JSON data in the topics and links global dictionaries.
     :return: None
     """
-    files = ["(1)GSC.json", "(2)TVM.json", "(3)SA.json", "(4)SO.json"]
+    files = ["data/(1)GSC.json", "data/(2)TVM.json", "data/(3)SA.json", "data/(4)SO.json", "data/(5)SPMaO.json"]
     for file in files:
         with open(file) as json_file:
             json_data = json.load(json_file)
             # Substring the file name, so it stores nicer in the dictionary
-            topics[file[3:-5]] = json_data
+            topics[file[8:-5]] = json_data
         json_file.close()
-    with open("links.json") as link_file:
+    with open("data/links.json") as link_file:
         link_data = json.load(link_file)
         for item in link_data.items():
             links[item[0]] = item[1]
@@ -79,7 +86,7 @@ Choice: """
         elif category_choice == 4:
             display_topics(topics["SO"], "SO")  # Security Operations
         elif category_choice == 5:
-            break  # Security Program Management and Oversight
+            display_topics(topics["SPMaO"], "SPMaO")  # Security Program Management and Oversight
         else:
             break
 
@@ -117,7 +124,7 @@ def view_progress():
     clear()
     total_topics = 0
     num_completed = 0
-    cats = ['GSC', 'TVM', 'SA', 'SO']  # Add SPMaO when the material comes out
+    cats = ['GSC', 'TVM', 'SA', 'SO', 'SPMaO']
     for cat in cats:
         total_topics += len(topics[cat])
         for topic in topics[cat].values():
@@ -128,7 +135,7 @@ General Security Concepts ({get_progress(topics['GSC'])})%
 Threats, Vulnerabilities, and Mitigations ({get_progress(topics["TVM"])})%
 Security Architecture ({get_progress(topics["SA"])})%
 Security Operations ({get_progress(topics["SO"])})%
-Security Program Management and Oversight (Unavailable)%
+Security Program Management and Oversight ({get_progress(topics["SPMaO"])})%
 TOTAL: {(num_completed/total_topics)*100:.2f}%
 """)
     input("Press enter to continue...")
@@ -153,14 +160,12 @@ def save():
     This function saves the user's data back to the JSON files.
     :return: None
     """
-    files = ["(1)GSC.json", "(2)TVM.json", "(3)SA.json", "(4)SO.json"]
+    files = ["data/(1)GSC.json", "data/(2)TVM.json", "data/(3)SA.json", "data/(4)SO.json", "data/(5)SPMaO.json"]
     for file in files:
         with open(file, "w") as json_file:
-            json.dump(topics[file[3:-5]], json_file, indent=4)
+            json.dump(topics[file[8:-5]], json_file, indent=4)
         json_file.close()
 
 
 if __name__ == '__main__':
-    load_json()
-    print()
-    main_menu()
+    main()
