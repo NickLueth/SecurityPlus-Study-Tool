@@ -1,3 +1,1607 @@
 {
-
+    "AAA": [
+        "Authentication, Authorization, and Accounting",
+        "Security protocols for controlling access to computer systems.",
+        false
+    ],
+    "ACL": [
+        "Access Control List",
+        "A list of rules that specify which users or system processes are granted access to objects, as well as what operations are allowed on given objects.",
+        false
+    ],
+    "AES": [
+        "Advanced Encryption Standard",
+        "A widely-used symmetric encryption algorithm.",
+        false
+    ],
+    "AES-256": [
+        "Advanced Encryption Standards 256-bit",
+        "A variant of AES with a key length of 256 bits for enhanced security.",
+        false
+    ],
+    "AH": [
+        "Authentication Header",
+        "A component of the IPsec protocol suite used to guarantee the authenticity and integrity of transmitted messages.",
+        false
+    ],
+    "AI": [
+        "Artificial Intelligence",
+        "The simulation of human intelligence processes by machines, especially computer systems.",
+        false
+    ],
+    "AIS": [
+        "Automated Indicator Sharing",
+        "The automated exchange of cyber threat indicators between organizations.",
+        false
+    ],
+    "ALE": [
+        "Annualized Loss Expectancy",
+        "A calculation used to assess the expected financial loss from a security incident.",
+        false
+    ],
+    "AP": [
+        "Access Point",
+        "A networking hardware device that allows a Wi-Fi device to connect to a wired network.",
+        false
+    ],
+    "API": [
+        "Application Programming Interface",
+        "A set of rules that allows one software application to interact with another.",
+        false
+    ],
+    "APT": [
+        "Advanced Persistent Threat",
+        "A prolonged, targeted cyber attack in which an intruder gains access to a network and remains undetected for an extended period.",
+        false
+    ],
+    "ARO": [
+        "Annualized Rate of Occurrence",
+        "A metric used in risk assessment to estimate the frequency of a specific threat.",
+        false
+    ],
+    "ARP": [
+        "Address Resolution Protocol",
+        "A protocol used to map an IP address to a physical machine address (MAC address) on a local network.",
+        false
+    ],
+    "ASLR": [
+        "Address Space Layout Randomization",
+        "A security feature that randomizes the memory locations used by system files and key program components.",
+        false
+    ],
+    "ATT&CK": [
+        "Adversarial Tactics, Techniques, and Common Knowledge",
+        "A knowledge base used to describe the actions and behaviors of cyber adversaries.",
+        false
+    ],
+    "AUP": [
+        "Acceptable Use Policy",
+        "A set of rules governing the use of computer systems and networks.",
+        false
+    ],
+    "AV": [
+        "Antivirus",
+        "Software designed to detect and remove malicious software (malware) from a computer or network.",
+        false
+    ],
+    "BASH": [
+        "Bourne Again Shell",
+        "A command processor that typically runs in a text window where the user types commands that cause actions.",
+        false
+    ],
+    "BCP": [
+        "Business Continuity Planning",
+        "The process of developing systems of prevention and recovery to deal with potential threats to a company.",
+        false
+    ],
+    "BGP": [
+        "Border Gateway Protocol",
+        "A standardized exterior gateway protocol used to exchange routing and reachability information between autonomous systems on the Internet.",
+        false
+    ],
+    "BIA": [
+        "Business Impact Analysis",
+        "An analysis to identify and evaluate the potential effects of disruptions to critical business operations.",
+        false
+    ],
+    "BIOS": [
+        "Basic Input/Output System",
+        "Firmware used to perform hardware initialization during the booting process.",
+        false
+    ],
+    "BPA": [
+        "Business Partners Agreement",
+        "An agreement between business partners defining their rights, responsibilities, and expectations.",
+        false
+    ],
+    "BPDU": [
+        "Bridge Protocol Data Unit",
+        "A frame sent out by a bridge in a computer network that contains information used to detect loops.",
+        false
+    ],
+    "BYOD": [
+        "Bring Your Own Device",
+        "A policy allowing employees to bring personally owned devices to their workplace.",
+        false
+    ],
+    "CA": [
+        "Certificate Authority",
+        "A trusted entity that issues digital certificates used in public key cryptography.",
+        false
+    ],
+    "CAPTCHA": [
+        "Completely Automated Public Turing Test to Tell Computers and Humans Apart",
+        "A challenge-response test used to determine whether the user is human or automated software.",
+        false
+    ],
+    "CAR": [
+        "Corrective Action Report",
+        "A report documenting actions taken to correct identified issues or deficiencies.",
+        false
+    ],
+    "CASB": [
+        "Cloud Access Security Broker",
+        "A security policy enforcement point placed between cloud service consumers and cloud service providers.",
+        false
+    ],
+    "CBC": [
+        "Cipher Block Chaining",
+        "A mode of operation for cryptographic block ciphers to provide confidentiality.",
+        false
+    ],
+    "CCMP": [
+        "Counter Mode/CBC-MAC Protocol",
+        "A protocol used in Wi-Fi networks to provide data confidentiality and integrity.",
+        false
+    ],
+    "CCTV": [
+        "Closed-circuit Television",
+        "A system of video cameras used for surveillance purposes.",
+        false
+    ],
+    "CERT": [
+        "Computer Emergency Response Team",
+        "A team of information security experts responsible for protecting an organization from cybersecurity threats.",
+        false
+    ],
+    "CFB": [
+        "Cipher Feedback",
+        "A mode of operation for a block cipher, working with arbitrary block sizes.",
+        false
+    ],
+    "CHAP": [
+        "Challenge Handshake Authentication Protocol",
+        "A secure authentication protocol used to authenticate a user or network host to an authenticating entity.",
+        false
+    ],
+    "CIA": [
+        "Confidentiality, Integrity, Availability",
+        "The three core principles of information security.",
+        false
+    ],
+    "CIO": [
+        "Chief Information Officer",
+        "A senior executive responsible for the information technology and computer systems of an enterprise.",
+        false
+    ],
+    "CIRT": [
+        "Computer Incident Response Team",
+        "A group of professionals responsible for managing and responding to computer security incidents.",
+        false
+    ],
+    "CMS": [
+        "Content Management System",
+        "A software application used to create, edit, manage, and publish digital content.",
+        false
+    ],
+    "COOP": [
+        "Continuity of Operation Planning",
+        "A process that helps organizations prepare for and ensure the continuation of essential functions during and after a disaster.",
+        false
+    ],
+    "COPE": [
+        "Corporate Owned, Personally Enabled",
+        "A mobile device management strategy in which an organization provides and owns the devices used by employees.",
+        false
+    ],
+    "CP": [
+        "Contingency Planning",
+        "A process that helps organizations prepare for and respond to potential disruptions.",
+        false
+    ],
+    "CRC": [
+        "Cyclical Redundancy Check",
+        "A method used to detect errors in data during transmission.",
+        false
+    ],
+    "CRL": [
+        "Certificate Revocation List",
+        "A list of digital certificates that have been revoked by the issuing certificate authority.",
+        false
+    ],
+    "CSO": [
+        "Chief Security Officer",
+        "A senior executive responsible for the overall security posture of an organization.",
+        false
+    ],
+    "CSP": [
+        "Cloud Service Provider",
+        "A company that offers various IT services over the internet.",
+        false
+    ],
+    "CSR": [
+        "Certificate Signing Request",
+        "A message sent from an applicant to a certificate authority to apply for a digital identity certificate.",
+        false
+    ],
+    "CSRF": [
+        "Cross-site Request Forgery",
+        "An attack that tricks the victim into submitting a malicious request.",
+        false
+    ],
+    "CSU": [
+        "Channel Service Unit",
+        "A device that connects a terminal to a digital circuit, such as a T1 or T3 line.",
+        false
+    ],
+    "CTM": [
+        "Counter Mode",
+        "A mode of operation for cryptographic block ciphers.",
+        false
+    ],
+    "CTO": [
+        "Chief Technology Officer",
+        "A senior executive responsible for the technological direction of an organization.",
+        false
+    ],
+    "CVE": [
+        "Common Vulnerability Enumeration",
+        "A system for identifying and naming cybersecurity vulnerabilities.",
+        false
+    ],
+    "CVSS": [
+        "Common Vulnerability Scoring System",
+        "A framework for scoring the severity of software vulnerabilities.",
+        false
+    ],
+    "CYOD": [
+        "Choose Your Own Device",
+        "A policy allowing employees to choose from a list of approved devices for work purposes.",
+        false
+    ],
+    "DAC": [
+        "Discretionary Access Control",
+        "A security model where each subject has an associated set of permissions.",
+        false
+    ],
+    "DBA": [
+        "Database Administrator",
+        "A person responsible for the design, implementation, and maintenance of an organization's databases.",
+        false
+    ],
+    "DDoS": [
+        "Distributed Denial of Service",
+        "An attack in which multiple compromised computers are used to flood a target system with traffic.",
+        false
+    ],
+    "DEP": [
+        "Data Execution Prevention",
+        "A security feature that helps prevent damage from viruses and other security threats.",
+        false
+    ],
+    "DES": [
+        "Digital Encryption Standard",
+        "A symmetric-key algorithm for the encryption of electronic data.",
+        false
+    ],
+    "DHCP": [
+        "Dynamic Host Configuration Protocol",
+        "A network management protocol used to dynamically assign IP addresses to devices on a network.",
+        false
+    ],
+    "DHE": [
+        "Diffie-Hellman Ephemeral",
+        "A variant of the Diffie-Hellman key exchange protocol that provides perfect forward secrecy.",
+        false
+    ],
+    "DKIM": [
+        "DomainKeys Identified Mail",
+        "An email authentication method that allows the person receiving the email to check that it was actually sent by the domain it claims to be from.",
+        false
+    ],
+    "DLL": [
+        "Dynamic Link Library",
+        "A file containing code and data that can be used by multiple programs simultaneously.",
+        false
+    ],
+    "DLP": [
+        "Data Loss Prevention",
+        "A set of tools and processes used to ensure that sensitive data is not lost, misused, or accessed by unauthorized users.",
+        false
+    ],
+    "DMARC": [
+        "Domain Message Authentication Reporting and Conformance",
+        "An email authentication protocol that uses SPF and DKIM to determine the authenticity of an email message.",
+        false
+    ],
+    "DNAT": [
+        "Destination Network Address Translation",
+        "A technique for transparently changing the destination IP address of an incoming packet.",
+        false
+    ],
+    "DNS": [
+        "Domain Name System",
+        "A hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.",
+        false
+    ],
+    "DoS": [
+        "Denial of Service",
+        "An attack that makes a computer or network resource unavailable to its intended users.",
+        false
+    ],
+    "DPO": [
+        "Data Privacy Officer",
+        "An individual who oversees an organization's data privacy strategy and implementation.",
+        false
+    ],
+    "DRP": [
+        "Disaster Recovery Plan",
+        "A documented process or set of procedures to recover and protect a business IT infrastructure in the event of a disaster.",
+        false
+    ],
+    "DSA": [
+        "Digital Signature Algorithm",
+        "A Federal Information Processing Standard for digital signatures.",
+        false
+    ],
+    "DSL": [
+        "Digital Subscriber Line",
+        "A type of broadband internet connection that uses existing copper telephone lines.",
+        false
+    ],
+    "EAP": [
+        "Extensible Authentication Protocol",
+        "A framework frequently used in wireless networks and Point-to-Point connections.",
+        false
+    ],
+    "ECB": [
+        "Electronic Code Book",
+        "A mode of operation for a block cipher, where each block of plaintext is encrypted independently.",
+        false
+    ],
+    "ECC": [
+        "Elliptic Curve Cryptography",
+        "A public key cryptography algorithm based on the mathematics of elliptic curves.",
+        false
+    ],
+    "ECDHE": [
+        "Elliptic Curve Diffie-Hellman Ephemeral",
+        "A key exchange protocol based on elliptic curve cryptography that provides perfect forward secrecy.",
+        false
+    ],
+    "ECDSA": [
+        "Elliptic Curve Digital Signature Algorithm",
+        "A digital signature algorithm using elliptic curve cryptography.",
+        false
+    ],
+    "EDR": [
+        "Endpoint Detection and Response",
+        "A solution that helps organizations detect, investigate, and mitigate security incidents on endpoint devices.",
+        false
+    ],
+    "EFS": [
+        "Encrypted File System",
+        "A feature of the NTFS file system that allows files to be encrypted.",
+        false
+    ],
+    "ERP": [
+        "Enterprise Resource Planning",
+        "A type of software that organizations use to manage their day-to-day activities.",
+        false
+    ],
+    "ESN": [
+        "Electronic Serial Number",
+        "A unique identifier assigned to a mobile device.",
+        false
+    ],
+    "ESP": [
+        "Encapsulated Security Payload",
+        "A protocol within the IPsec suite that provides authentication, integrity, and confidentiality for packets.",
+        false
+    ],
+    "FACL": [
+        "File System Access Control List",
+        "A list of permissions attached to an object that specifies which users or system processes are granted access to that object.",
+        false
+    ],
+    "FDE": [
+        "Full Disk Encryption",
+        "The encryption of an entire disk or partition.",
+        false
+    ],
+    "FIM": [
+        "File Integrity Management",
+        "A security process for ensuring the integrity of files and data.",
+        false
+    ],
+    "FPGA": [
+        "Field Programmable Gate Array",
+        "An integrated circuit designed to be configured by a customer or a designer after manufacturing.",
+        false
+    ],
+    "FRR": [
+        "False Rejection Rate",
+        "A measure of the likelihood that a biometric security system will incorrectly reject an access attempt.",
+        false
+    ],
+    "FTP": [
+        "File Transfer Protocol",
+        "A standard network protocol used to transfer files from one host to another over a TCP-based network.",
+        false
+    ],
+    "FTPS": [
+        "Secured File Transfer Protocol",
+        "An extension of FTP that adds support for the Transport Layer Security (TLS) and the Secure Sockets Layer (SSL) protocols.",
+        false
+    ],
+    "GCM": [
+        "Galois Counter Mode",
+        "A mode of operation for symmetric key cryptographic block ciphers that has been widely adopted for authenticated encryption.",
+        false
+    ],
+    "GDPR": [
+        "General Data Protection Regulation",
+        "A regulation in EU law on data protection and privacy.",
+        false
+    ],
+    "GPG": [
+        "Gnu Privacy Guard",
+        "A free implementation of the OpenPGP standard for encrypting and decrypting data.",
+        false
+    ],
+    "GPO": [
+        "Group Policy Object",
+        "A collection of settings that define what a system will look like and how it will behave for a defined group of users.",
+        false
+    ],
+    "GPS": [
+        "Global Positioning System",
+        "A satellite-based navigation system.",
+        false
+    ],
+    "GPU": [
+        "Graphics Processing Unit",
+        "A specialized electronic circuit designed to accelerate the processing of images.",
+        false
+    ],
+    "GRE": [
+        "Generic Routing Encapsulation",
+        "A tunneling protocol used to encapsulate a wide variety of network layer protocols into point-to-point connections.",
+        false
+    ],
+    "HA": [
+        "High Availability",
+        "A characteristic of a system that aims to ensure an agreed level of operational performance.",
+        false
+    ],
+    "HDD": [
+        "Hard Disk Drive",
+        "A non-volatile storage device that stores digitally encoded data on rapidly rotating platters with magnetic surfaces.",
+        false
+    ],
+    "HIDS": [
+        "Host-based Intrusion Detection System",
+        "A security system that monitors and analyzes the internals of a computing system.",
+        false
+    ],
+    "HIPS": [
+        "Host-based Intrusion Prevention System",
+        "A security system that monitors and analyzes the internals of a computing system to prevent intrusions.",
+        false
+    ],
+    "HMAC": [
+        "Hashed Message Authentication Code",
+        "A specific type of message authentication code involving a cryptographic hash function and a secret cryptographic key.",
+        false
+    ],
+    "HOTP": [
+        "HMAC-based One-time Password",
+        "An algorithm that computes a one-time password from a shared secret key and the current time.",
+        false
+    ],
+    "HSM": [
+        "Hardware Security Module",
+        "A physical computing device that safeguards and manages digital keys for strong authentication.",
+        false
+    ],
+    "HTML": [
+        "Hypertext Markup Language",
+        "The standard markup language for documents designed to be displayed in a web browser.",
+        false
+    ],
+    "HTTP": [
+        "Hypertext Transfer Protocol",
+        "Communication protocol for the web",
+        false
+    ],
+    "HTTPS": [
+        "Hypertext Transfer Protocol Secure",
+        "Secure version of HTTP",
+        false
+    ],
+    "HVAC": [
+        "Heating, Ventilation Air Conditioning",
+        "Technology for indoor climate control",
+        false
+    ],
+    "IaaS": [
+        "Infrastructure as a Service",
+        "Cloud computing service model",
+        false
+    ],
+    "IaC": [
+        "Infrastructure as Code",
+        "Managing and provisioning infrastructure through code",
+        false
+    ],
+    "IAM": [
+        "Identity and Access Management",
+        "Framework for managing digital identities",
+        false
+    ],
+    "ICMP": [
+        "Internet Control Message Protocol",
+        "Network layer protocol for error messages",
+        false
+    ],
+    "ICS": [
+        "Industrial Control Systems",
+        "Systems used in industrial operations",
+        false
+    ],
+    "IDEA": [
+        "International Data Encryption Algorithm",
+        "Symmetric key block cipher",
+        false
+    ],
+    "IDF": [
+        "Intermediate Distribution Frame",
+        "Telecommunication distribution frame",
+        false
+    ],
+    "IdP": [
+        "Identity Provider",
+        "Entity that issues and manages identity information",
+        false
+    ],
+    "IDS": [
+        "Intrusion Detection System",
+        "Security system for detecting unauthorized access",
+        false
+    ],
+    "IEEE": [
+        "Institute of Electrical and Electronics Engineers",
+        "Professional organization for electrical and electronics standards",
+        false
+    ],
+    "IKE": [
+        "Internet Key Exchange",
+        "Protocol for key exchange in IPsec",
+        false
+    ],
+    "IM": [
+        "Instant Messaging",
+        "Real-time text communication",
+        false
+    ],
+    "IMAP": [
+        "Internet Message Access Protocol",
+        "Email retrieval protocol",
+        false
+    ],
+    "IoC": [
+        "Indicators of Compromise",
+        "Artifacts indicating a security incident",
+        false
+    ],
+    "IoT": [
+        "Internet of Things",
+        "Network of interconnected devices",
+        false
+    ],
+    "IP": [
+        "Internet Protocol",
+        "Communicates data across a network",
+        false
+    ],
+    "IPS": [
+        "Intrusion Prevention System",
+        "Security system for preventing unauthorized access",
+        false
+    ],
+    "IPSec": [
+        "Internet Protocol Security",
+        "Security protocol suite for IP",
+        false
+    ],
+    "IR": [
+        "Incident Response",
+        "Process of managing and mitigating security incidents",
+        false
+    ],
+    "IRC": [
+        "Internet Relay Chat",
+        "Real-time messaging protocol",
+        false
+    ],
+    "IRP": [
+        "Incident Response Plan",
+        "Document outlining steps in incident response",
+        false
+    ],
+    "ISO": [
+        "International Standards Organization",
+        "Global standard-setting body",
+        false
+    ],
+    "ISP": [
+        "Internet Service Provider",
+        "Company providing internet services",
+        false
+    ],
+    "ISSO": [
+        "Information Systems Security Officer",
+        "Security professional responsible for information systems",
+        false
+    ],
+    "IV": [
+        "Initialization Vector",
+        "Random number used in cryptography",
+        false
+    ],
+    "KDC": [
+        "Key Distribution Center",
+        "Entity that distributes cryptographic keys",
+        false
+    ],
+    "KEK": [
+        "Key Encryption Key",
+        "Key used for encrypting other keys",
+        false
+    ],
+    "L2TP": [
+        "Layer 2 Tunneling Protocol",
+        "Tunneling protocol for creating virtual private networks",
+        false
+    ],
+    "LAN": [
+        "Local Area Network",
+        "Network that spans a small geographic area",
+        false
+    ],
+    "LDAP": [
+        "Lightweight Directory Access Protocol",
+        "Protocol for accessing directory services",
+        false
+    ],
+    "LEAP": [
+        "Lightweight Extensible Authentication Protocol",
+        "Wireless network authentication protocol",
+        false
+    ],
+    "MaaS": [
+        "Monitoring as a Service",
+        "Delivery of monitoring services over the internet",
+        false
+    ],
+    "MAC": [
+        "Message Authentication Code",
+        "Authentication tag for ensuring data integrity",
+        false
+    ],
+    "MAN": [
+        "Metropolitan Area Network",
+        "Network that covers a larger geographic area than a LAN",
+        false
+    ],
+    "MBR": [
+        "Master Boot Record",
+        "Data structure on a storage device",
+        false
+    ],
+    "MD5": [
+        "Message Digest 5",
+        "Hash function producing a 128-bit hash value",
+        false
+    ],
+    "MDF": [
+        "Main Distribution Frame",
+        "Telecommunication frame that interconnects and manages telecommunications wiring",
+        false
+    ],
+    "MDM": [
+        "Mobile Device Management",
+        "System for managing mobile devices",
+        false
+    ],
+    "MFA": [
+        "Multifactor Authentication",
+        "Authentication method using multiple factors",
+        false
+    ],
+    "MFD": [
+        "Multifunction Device",
+        "Device that performs multiple functions",
+        false
+    ],
+    "MFP": [
+        "Multifunction Printer",
+        "Printer that can perform multiple functions",
+        false
+    ],
+    "ML": [
+        "Machine Learning",
+        "Field of artificial intelligence",
+        false
+    ],
+    "MMS": [
+        "Multimedia Message Service",
+        "Messaging service for sending multimedia content",
+        false
+    ],
+    "MOA": [
+        "Memorandum of Agreement",
+        "Formal agreement between parties",
+        false
+    ],
+    "MOU": [
+        "Memorandum of Understanding",
+        "Formal understanding between parties",
+        false
+    ],
+    "MPLS": [
+        "Multi-protocol Label Switching",
+        "Routing technique in telecommunications networks",
+        false
+    ],
+    "MSA": [
+        "Master Service Agreement",
+        "Contract that outlines terms between parties",
+        false
+    ],
+    "MSCHAP": [
+        "Microsoft Challenge Handshake Authentication Protocol",
+        "Authentication protocol",
+        false
+    ],
+    "MSP": [
+        "Managed Service Provider",
+        "Company providing managed services",
+        false
+    ],
+    "MSSP": [
+        "Managed Security Service Provider",
+        "Provider of managed security services",
+        false
+    ],
+    "MTBF": [
+        "Mean Time Between Failures",
+        "Predicted elapsed time between inherent failures of a system",
+        false
+    ],
+    "MTTF": [
+        "Mean Time to Failure",
+        "Predicted time until a non-repairable system fails",
+        false
+    ],
+    "MTTR": [
+        "Mean Time to Recover",
+        "Average time to repair a failed system",
+        false
+    ],
+    "MTU": [
+        "Maximum Transmission Unit",
+        "Maximum size of a data packet",
+        false
+    ],
+    "NAC": [
+        "Network Access Control",
+        "Security solution controlling access to a network",
+        false
+    ],
+    "NAT": [
+        "Network Address Translation",
+        "Technique for modifying network address information",
+        false
+    ],
+    "NDA": [
+        "Non-disclosure Agreement",
+        "Legal agreement to protect confidential information",
+        false
+    ],
+    "NFC": [
+        "Near Field Communication",
+        "Wireless technology for short-range communication",
+        false
+    ],
+    "NGFW": [
+        "Next-generation Firewall",
+        "Firewall with advanced capabilities",
+        false
+    ],
+    "NIDS": [
+        "Network-based Intrusion Detection System",
+        "Security system for detecting network-based attacks",
+        false
+    ],
+    "NIPS": [
+        "Network-based Intrusion Prevention System",
+        "Security system for preventing network-based attacks",
+        false
+    ],
+    "NIST": [
+        "National Institute of Standards & Technology",
+        "U.S. federal agency setting standards",
+        false
+    ],
+    "NTFS": [
+        "New Technology File System",
+        "File system standard for Windows",
+        false
+    ],
+    "NTLM": [
+        "New Technology LAN Manager",
+        "Authentication protocol",
+        false
+    ],
+    "NTP": [
+        "Network Time Protocol",
+        "Protocol for clock synchronization",
+        false
+    ],
+    "OAUTH": [
+        "Open Authorization",
+        "Authorization framework for third-party access",
+        false
+    ],
+    "OCSP": [
+        "Online Certificate Status Protocol",
+        "Protocol for checking the status of a digital certificate",
+        false
+    ],
+    "OID": [
+        "Object Identifier",
+        "Unique identifier in a naming hierarchy",
+        false
+    ],
+    "OS": [
+        "Operating System",
+        "System software that manages computer hardware",
+        false
+    ],
+    "OSINT": [
+        "Open-source Intelligence",
+        "Intelligence collected from publicly available sources",
+        false
+    ],
+    "OSPF": [
+        "Open Shortest Path First",
+        "Routing protocol for internet protocol networks",
+        false
+    ],
+    "OT": [
+        "Operational Technology",
+        "Technology used to control industrial operations",
+        false
+    ],
+    "OTA": [
+        "Over the Air",
+        "Wireless software updates",
+        false
+    ],
+    "OVAL": [
+        "Open Vulnerability Assessment Language",
+        "Markup language for describing vulnerabilities",
+        false
+    ],
+    "P12": [
+        "PKCS #12",
+        "File format for storing cryptographic keys and certificates",
+        false
+    ],
+    "P2P": [
+        "Peer to Peer",
+        "Network where each computer can act as both a client and a server",
+        false
+    ],
+    "PaaS": [
+        "Platform as a Service",
+        "Cloud computing service model",
+        false
+    ],
+    "PAC": [
+        "Proxy Auto Configuration",
+        "Script used by web browsers to automatically configure proxy settings",
+        false
+    ],
+    "PAM": [
+        "Pluggable Authentication Modules",
+        "Standard interface for authentication modules",
+        false
+    ],
+    "PAP": [
+        "Password Authentication Protocol",
+        "Authentication protocol using a username and password",
+        false
+    ],
+    "PAT": [
+        "Port Address Translation",
+        "Technique for mapping multiple private IP addresses to a single public IP address",
+        false
+    ],
+    "PBKDF2": [
+        "Password-based Key Derivation Function 2",
+        "Key derivation function for passwords",
+        false
+    ],
+    "PBX": [
+        "Private Branch Exchange",
+        "Private telephone network",
+        false
+    ],
+    "PCAP": [
+        "Packet Capture",
+        "File format for packet capture data",
+        false
+    ],
+    "PCI DSS": [
+        "Payment Card Industry Data Security Standard",
+        "Security standard for handling credit card information",
+        false
+    ],
+    "PDU": [
+        "Power Distribution Unit",
+        "Device that distributes electric power to computers and networking equipment",
+        false
+    ],
+    "PEAP": [
+        "Protected Extensible Authentication Protocol",
+        "Authentication protocol",
+        false
+    ],
+    "PED": [
+        "Personal Electronic Device",
+        "Portable electronic device",
+        false
+    ],
+    "PEM": [
+        "Privacy Enhanced Mail",
+        "Secure form of electronic mail",
+        false
+    ],
+    "PFS": [
+        "Perfect Forward Secrecy",
+        "Cryptographic property ensuring that a session key derived from a set of long-term keys cannot be compromised",
+        false
+    ],
+    "PGP": [
+        "Pretty Good Privacy",
+        "Data encryption and decryption program",
+        false
+    ],
+    "PHI": [
+        "Personal Health Information",
+        "Health-related information tied to an individual",
+        false
+    ],
+    "PII": [
+        "Personally Identifiable Information",
+        "Information that can be used to identify an individual",
+        false
+    ],
+    "PIV": [
+        "Personal Identity Verification",
+        "Authentication mechanism",
+        false
+    ],
+    "PKCS": [
+        "Public Key Cryptography Standards",
+        "Standards for public-key cryptography",
+        false
+    ],
+    "PKI": [
+        "Public Key Infrastructure",
+        "Infrastructure for managing digital keys and certificates",
+        false
+    ],
+    "POP": [
+        "Post Office Protocol",
+        "Email retrieval protocol",
+        false
+    ],
+    "POTS": [
+        "Plain Old Telephone Service",
+        "Traditional telephone service",
+        false
+    ],
+    "PPP": [
+        "Point-to-Point Protocol",
+        "Data link layer protocol",
+        false
+    ],
+    "PPTP": [
+        "Point-to-Point Tunneling Protocol",
+        "VPN protocol",
+        false
+    ],
+    "PSK": [
+        "Pre-shared Key",
+        "Secret key used for authentication",
+        false
+    ],
+    "PTZ": [
+        "Pan-tilt-zoom",
+        "Camera control mechanism",
+        false
+    ],
+    "PUP": [
+        "Potentially Unwanted Program",
+        "Software that may be unwanted by the user",
+        false
+    ],
+    "RA": [
+        "Registration Authority",
+        "Entity responsible for assigning and managing digital certificates",
+        false
+    ],
+    "RACE": [
+        "Research and Development in Advanced Communications Technologies in Europe",
+        "European research project",
+        false
+    ],
+    "RAD": [
+        "Rapid Application Development",
+        "Software development methodology",
+        false
+    ],
+    "RADIUS": [
+        "Remote Authentication Dial-in User Service",
+        "Authentication and authorization protocol",
+        false
+    ],
+    "RAID": [
+        "Redundant Array of Inexpensive Disks",
+        "Data storage virtualization technology",
+        false
+    ],
+    "RAS": [
+        "Remote Access Server",
+        "Server that enables remote access to a network",
+        false
+    ],
+    "RAT": [
+        "Remote Access Trojan",
+        "Malicious software allowing unauthorized remote access",
+        false
+    ],
+    "RBAC": [
+        "Rule-based Access Control",
+        "Access control based on rules",
+        false
+    ],
+    "RC4": [
+        "Rivest Cipher version 4",
+        "Stream cipher",
+        false
+    ],
+    "RDP": [
+        "Remote Desktop Protocol",
+        "Protocol for remote desktop access",
+        false
+    ],
+    "RFID": [
+        "Radio Frequency Identifier",
+        "Technology for wireless communication of data",
+        false
+    ],
+    "RIPEMD": [
+        "RACE Integrity Primitives Evaluation Message Digest",
+        "Hash function",
+        false
+    ],
+    "ROI": [
+        "Return on Investment",
+        "Performance measure for evaluating the efficiency of an investment",
+        false
+    ],
+    "RPO": [
+        "Recovery Point Objective",
+        "Maximum tolerable period for data loss",
+        false
+    ],
+    "RSA": [
+        "Rivest, Shamir, & Adleman",
+        "Public-key cryptosystem",
+        false
+    ],
+    "RTBH": [
+        "Remotely Triggered Black Hole",
+        "Security mechanism",
+        false
+    ],
+    "RTO": [
+        "Recovery Time Objective",
+        "Target time for resuming operations after a disaster",
+        false
+    ],
+    "RTOS": [
+        "Real-time Operating System",
+        "Operating system designed for real-time applications",
+        false
+    ],
+    "RTP": [
+        "Real-time Transport Protocol",
+        "Protocol for delivering audio and video over IP networks",
+        false
+    ],
+    "S/MIME": [
+        "Secure/Multipurpose Internet Mail Extensions",
+        "Standard for secure email",
+        false
+    ],
+    "SaaS": [
+        "Software as a Service",
+        "Software delivery model",
+        false
+    ],
+    "SAE": [
+        "Simultaneous Authentication of Equals",
+        "Authentication protocol",
+        false
+    ],
+    "SAML": [
+        "Security Assertions Markup Language",
+        "XML-based open standard for exchanging authentication and authorization data",
+        false
+    ],
+    "SAN": [
+        "Subject Alternative Name",
+        "Extension to X.509 specification",
+        false
+    ],
+    "SASE": [
+        "Secure Access Service Edge",
+        "Network security framework",
+        false
+    ],
+    "SCADA": [
+        "Supervisory Control and Data Acquisition",
+        "Control system architecture",
+        false
+    ],
+    "SCAP": [
+        "Security Content Automation Protocol",
+        "Standard for automating the vulnerability management, measurement, and policy compliance evaluation",
+        false
+    ],
+    "SCEP": [
+        "Simple Certificate Enrollment Protocol",
+        "Protocol for certificate enrollment",
+        false
+    ],
+    "SD-WAN": [
+        "Software-defined Wide Area Network",
+        "WAN architecture using software-based controls",
+        false
+    ],
+    "SDK": [
+        "Software Development Kit",
+        "Set of tools for software development",
+        false
+    ],
+    "SDLC": [
+        "Software Development Lifecycle",
+        "Process for planning, creating, testing, and deploying software",
+        false
+    ],
+    "SDLM": [
+        "Software Development Lifecycle Methodology",
+        "Methodology for software development",
+        false
+    ],
+    "SDN": [
+        "Software-defined Networking",
+        "Network architecture where control is decoupled from hardware",
+        false
+    ],
+    "SE Linux": [
+        "Security-enhanced Linux",
+        "Linux kernel security module",
+        false
+    ],
+    "SED": [
+        "Self-encrypting Drives",
+        "Hard drives with built-in encryption",
+        false
+    ],
+    "SEH": [
+        "Structured Exception Handler",
+        "Handles exceptions in software",
+        false
+    ],
+    "SFTP": [
+        "Secured File Transfer Protocol",
+        "Ensures secure file transfer over a network",
+        false
+    ],
+    "SHA": [
+        "Secure Hashing Algorithm",
+        "Generates a fixed-size hash value from input data",
+        false
+    ],
+    "SHTTP": [
+        "Secure Hypertext Transfer Protocol",
+        "Secures data transfer over HTTP",
+        false
+    ],
+    "SIEM": [
+        "Security Information and Event Management",
+        "Collects and analyzes security data",
+        false
+    ],
+    "SIM": [
+        "Subscriber Identity Module",
+        "Stores information on a mobile device",
+        false
+    ],
+    "SLA": [
+        "Service-level Agreement",
+        "Defines the level of service between parties",
+        false
+    ],
+    "SLE": [
+        "Single Loss Expectancy",
+        "Measures potential financial loss from a security incident",
+        false
+    ],
+    "SMS": [
+        "Short Message Service",
+        "Allows the exchange of short text messages",
+        false
+    ],
+    "SMTP": [
+        "Simple Mail Transfer Protocol",
+        "Sends email messages between servers",
+        false
+    ],
+    "SMTPS": [
+        "Simple Mail Transfer Protocol Secure",
+        "Secures email communication using encryption",
+        false
+    ],
+    "SNMP": [
+        "Simple Network Management Protocol",
+        "Manages and monitors network devices",
+        false
+    ],
+    "SOAP": [
+        "Simple Object Access Protocol",
+        "Communicates between web services",
+        false
+    ],
+    "SOAR": [
+        "Security Orchestration, Automation, Response",
+        "Automates and coordinates security processes",
+        false
+    ],
+    "SoC": [
+        "System on Chip",
+        "Integrates all components on a single chip",
+        false
+    ],
+    "SOC": [
+        "Security Operations Center",
+        "Monitors and manages security incidents",
+        false
+    ],
+    "SOW": [
+        "Statement of Work",
+        "Defines project scope and deliverables",
+        false
+    ],
+    "SPF": [
+        "Sender Policy Framework",
+        "Authenticates email senders",
+        false
+    ],
+    "SPIM": [
+        "Spam over Internet Messaging",
+        "Unsolicited spam messages over messaging platforms",
+        false
+    ],
+    "SQL": [
+        "Structured Query Language",
+        "Manages and queries relational databases",
+        false
+    ],
+    "SQLi": [
+        "SQL Injection",
+        "Exploits vulnerabilities in SQL queries",
+        false
+    ],
+    "SRTP": [
+        "Secure Real-Time Protocol",
+        "Secures real-time communication",
+        false
+    ],
+    "SSD": [
+        "Solid State Drive",
+        "Uses NAND-based flash memory for data storage",
+        false
+    ],
+    "SSH": [
+        "Secure Shell",
+        "Provides secure remote access to systems",
+        false
+    ],
+    "SSL": [
+        "Secure Sockets Layer",
+        "Ensures secure communication over a network",
+        false
+    ],
+    "SSO": [
+        "Single Sign-on",
+        "Allows users to access multiple systems with one login",
+        false
+    ],
+    "STIX": [
+        "Structured Threat Information eXchange",
+        "Standardizes threat intelligence sharing",
+        false
+    ],
+    "SWG": [
+        "Secure Web Gateway",
+        "Filters and monitors web traffic for security",
+        false
+    ],
+    "TACACS+": [
+        "Terminal Access Controller Access Control System",
+        "Authenticates and authorizes network users",
+        false
+    ],
+    "TAXII": [
+        "Trusted Automated eXchange of Indicator Information",
+        "Standardizes threat intelligence sharing in cybersecurity",
+        false
+    ],
+    "TCP/IP": [
+        "Transmission Control Protocol/Internet Protocol",
+        "Defines how data is transmitted over the Internet",
+        false
+    ],
+    "TGT": [
+        "Ticket Granting Ticket",
+        "Used in Kerberos authentication for obtaining service tickets",
+        false
+    ],
+    "TKIP": [
+        "Temporal Key Integrity Protocol",
+        "Secures wireless communication in WPA",
+        false
+    ],
+    "TLS": [
+        "Transport Layer Security",
+        "Ensures secure communication over a computer network",
+        false
+    ],
+    "TOC": [
+        "Time-of-check",
+        "Security concept checking conditions at a specific time",
+        false
+    ],
+    "TOTP": [
+        "Time-based One-time Password",
+        "Generates one-time passwords based on time",
+        false
+    ],
+    "TOU": [
+        "Time-of-use",
+        "Pricing based on the time of day",
+        false
+    ],
+    "TPM": [
+        "Trusted Platform Module",
+        "Ensures hardware-based security",
+        false
+    ],
+    "TTP": [
+        "Tactics, Techniques, and Procedures",
+        "Describes methods used by adversaries",
+        false
+    ],
+    "TSIG": [
+        "Transaction Signature",
+        "Authenticates DNS messages",
+        false
+    ],
+    "UAT": [
+        "User Acceptance Testing",
+        "Ensures software meets user requirements",
+        false
+    ],
+    "UAV": [
+        "Unmanned Aerial Vehicle",
+        "Autonomously operated aerial vehicle",
+        false
+    ],
+    "UDP": [
+        "User Datagram Protocol",
+        "Connectionless protocol for data transmission",
+        false
+    ],
+    "UEFI": [
+        "Unified Extensible Firmware Interface",
+        "Spec for firmware that replaces BIOS",
+        false
+    ],
+    "UEM": [
+        "Unified Endpoint Management",
+        "Manages and secures endpoint devices",
+        false
+    ],
+    "UPS": [
+        "Uninterruptable Power Supply",
+        "Provides emergency power during outages",
+        false
+    ],
+    "URI": [
+        "Uniform Resource Identifier",
+        "Identifies resources on the web",
+        false
+    ],
+    "URL": [
+        "Universal Resource Locator",
+        "Specifies the web address of a resource",
+        false
+    ],
+    "USB": [
+        "Universal Serial Bus",
+        "Standard for connecting devices to a computer",
+        false
+    ],
+    "USB OTG": [
+        "USB On the Go",
+        "Allows USB devices to act as hosts",
+        false
+    ],
+    "UTM": [
+        "Unified Threat Management",
+        "Combines security functions for comprehensive protection",
+        false
+    ],
+    "UTP": [
+        "Unshielded Twisted Pair",
+        "Type of cable used in networking",
+        false
+    ],
+    "VBA": [
+        "Visual Basic",
+        "Programming language developed by Microsoft",
+        false
+    ],
+    "VDE": [
+        "Virtual Desktop Environment",
+        "Simulates a desktop environment on a remote server",
+        false
+    ],
+    "VDI": [
+        "Virtual Desktop Infrastructure",
+        "Hosts and manages virtual desktops",
+        false
+    ],
+    "VLAN": [
+        "Virtual Local Area Network",
+        "Logical network segment for better traffic control",
+        false
+    ],
+    "VLSM": [
+        "Variable Length Subnet Masking",
+        "Customizes subnet masks for efficient IP address allocation",
+        false
+    ],
+    "VM": [
+        "Virtual Machine",
+        "Emulates a computer within a computer",
+        false
+    ],
+    "VoIP": [
+        "Voice over IP",
+        "Transmits voice communications over the Internet",
+        false
+    ],
+    "VPC": [
+        "Virtual Private Cloud",
+        "Cloud computing environment isolated for a specific user",
+        false
+    ],
+    "VPN": [
+        "Virtual Private Network",
+        "Secures communication over a public network",
+        false
+    ],
+    "VTC": [
+        "Video Teleconferencing",
+        "Enables visual communication over a network",
+        false
+    ],
+    "WAF": [
+        "Web Application Firewall",
+        "Protects web applications from cyber threats",
+        false
+    ],
+    "WAP": [
+        "Wireless Access Point",
+        "Connects wireless devices to a wired network",
+        false
+    ],
+    "WEP": [
+        "Wired Equivalent Privacy",
+        "Security protocol for wireless networks",
+        false
+    ],
+    "WIDS": [
+        "Wireless Intrusion Detection System",
+        "Monitors and analyzes wireless network traffic",
+        false
+    ],
+    "WIPS": [
+        "Wireless Intrusion Prevention System",
+        "Prevents unauthorized access to wireless networks",
+        false
+    ],
+    "WO": [
+        "Work Order",
+        "Document requesting work to be done",
+        false
+    ],
+    "WPA": [
+        "Wi-Fi Protected Access",
+        "Security protocol for wireless networks",
+        false
+    ],
+    "WPS": [
+        "Wi-Fi Protected Setup",
+        "Simplifies the process of connecting devices to a Wi-Fi network",
+        false
+    ],
+    "WTLS": [
+        "Wireless TLS",
+        "Security protocol for wireless communication",
+        false
+    ],
+    "XDR": [
+        "Extended Detection and Response",
+        "Security approach that goes beyond traditional methods",
+        false
+    ],
+    "XML": [
+        "Extensible Markup Language",
+        "Markup language for encoding documents",
+        false
+    ],
+    "XOR": [
+        "Exclusive Or",
+        "Logical operation for combining binary values",
+        false
+    ],
+    "XSRF": [
+        "Cross-site Request Forgery",
+        "Type of malicious exploit of a website",
+        false
+    ],
+    "XSS": [
+        "Cross-site Scripting",
+        "Security vulnerability in web applications",
+        false
+    ]
 }
