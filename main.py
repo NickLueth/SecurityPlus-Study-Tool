@@ -200,8 +200,8 @@ def solve_acronym(acronym):
         print("Correct!")
         input("Press enter to continue...")
     else:
-        print(f"Sorry, the correct answer was:\n{acronyms[acronym][0]}")
-        wrong = yes_or_no_handler("Would you like to mark that acronym as complete?(y/n): ")
+        print(f"\nSorry, the correct answer was:\n{acronyms[acronym][0]}")
+        wrong = yes_or_no_handler("\nWould you like to mark that acronym as complete?(y/n): ")
         if wrong.__eq__("y"):
             acronyms[acronym][2] = True
 
