@@ -36,7 +36,7 @@ The SecurityPlus Study Tool is designed to assist in the preparation for the [Co
 
    - **Command Line:**
      ```bash
-     python securityplus_study_tool.py
+     python3 securityplus_study_tool.py
      ```
 
    - **IDE:**
