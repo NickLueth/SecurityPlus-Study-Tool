@@ -9,7 +9,7 @@ The SecurityPlus Study Tool is designed to assist in the preparation for the Com
 ## Features
 
 - **Video Progress Tracking:** Keep tabs on your progress by marking completed videos and easily identify what topics are left to study.
-
+- **Acronym Study Tracking:** Get familiar with acronyms you might come across in the exam, and track which ones you have left to practice.
 - **User-Friendly Interface:** The tool provides a simple and intuitive interface for a seamless studying experience.
 
 ## How to Use
