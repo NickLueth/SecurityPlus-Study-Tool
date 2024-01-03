@@ -1,6 +1,3 @@
-Certainly! Here's the improved README.md in markdown language:
-
-```markdown
 # SecurityPlus Study Tool
 
 ## Overview
