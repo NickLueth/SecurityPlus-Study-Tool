@@ -14,7 +14,7 @@ The SecurityPlus Study Tool is designed to assist in the preparation for the Com
 
 ### Prerequisites
 
-- Ensure you have Python installed on your machine.
+- Ensure you have Python3 installed on your machine.
 
 ### Running the Script
 
@@ -47,9 +47,8 @@ For easy access, consider creating a desktop shortcut or a batch file:
 1. Create a batch file (e.g., `run_study_tool.bat`) with the following content:
 
    ```batch
-   @echo off
    cd path\to\your\SecurityPlus-Study-Tool
-   python securityplus_study_tool.py
+   python3 securityplus_study_tool.py
    ```
 
 2. Save the batch file on your desktop.
@@ -60,13 +59,8 @@ For easy access, consider creating a desktop shortcut or a batch file:
 
 If you encounter issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
 
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
-
 ## Acknowledgments
 
 - Special thanks to Professor Messer for providing invaluable study resources.
 
 Happy studying! 📚✨
-```
