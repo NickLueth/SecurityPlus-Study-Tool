@@ -4,7 +4,7 @@ Last updated: 1/2/2024
 
 ## Overview
 
-The SecurityPlus Study Tool is designed to assist in the preparation for the CompTIA SY0-701 Security+ exam, leveraging Professor Messer's comprehensive YouTube videos. This tool enables users to track their progress, facilitating a focused and organized approach to exam readiness.
+The SecurityPlus Study Tool is designed to assist in the preparation for the [CompTIA SY0-701 Security+](https://certblaster.com/wp-content/uploads/2023/11/CompTIA-Security-SY0-701-Exam-Objectives-1.pdf) exam, leveraging [Professor Messer's](https://www.professormesser.com/) comprehensive [YouTube](https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv) videos. This tool enables users to track their progress, facilitating a focused and organized approach to exam readiness.
 
 ## Features
 
@@ -63,6 +63,6 @@ If you encounter issues or have suggestions for improvement, feel free to open a
 
 ## Acknowledgments
 
-- Special thanks to Professor Messer for providing invaluable study resources.
+- Special thanks to [Professor Messer](https://www.professormesser.com/) for providing invaluable study resources.
 
 Happy studying! 📚✨
