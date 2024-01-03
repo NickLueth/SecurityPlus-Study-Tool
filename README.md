@@ -1,4 +1,6 @@
-# SecurityPlus Study Tool
+# Security+ Study Tool
+Created by: Nick Lueth <br>
+Last updated: 1/2/2024
 
 ## Overview
 
