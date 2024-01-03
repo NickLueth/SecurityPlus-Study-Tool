@@ -1,2 +1,75 @@
-# SecurityPlus-Study-Tool
-This is a tool to help study for the CompTIA SY0-701 Security+ exam with the help of Professor Messer's YouTube videos. The tool tracks your progress, so you can identify what you have left to study.
+Certainly! Here's the improved README.md in markdown language:
+
+```markdown
+# SecurityPlus Study Tool
+
+## Overview
+
+The SecurityPlus Study Tool is designed to assist in the preparation for the CompTIA SY0-701 Security+ exam, leveraging Professor Messer's comprehensive YouTube videos. This tool enables users to track their progress, facilitating a focused and organized approach to exam readiness.
+
+## Features
+
+- **Video Progress Tracking:** Keep tabs on your progress by marking completed videos and easily identify what topics are left to study.
+
+- **User-Friendly Interface:** The tool provides a simple and intuitive interface for a seamless studying experience.
+
+## How to Use
+
+### Prerequisites
+
+- Ensure you have Python installed on your machine.
+
+### Running the Script
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/SecurityPlus-Study-Tool.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd SecurityPlus-Study-Tool
+   ```
+
+3. Run the script using your preferred method:
+
+   - **Command Line:**
+     ```bash
+     python securityplus_study_tool.py
+     ```
+
+   - **IDE:**
+     Open the project in your favorite IDE and run the `securityplus_study_tool.py` script.
+
+### Creating a Desktop Shortcut (Optional)
+
+For easy access, consider creating a desktop shortcut or a batch file:
+
+1. Create a batch file (e.g., `run_study_tool.bat`) with the following content:
+
+   ```batch
+   @echo off
+   cd path\to\your\SecurityPlus-Study-Tool
+   python securityplus_study_tool.py
+   ```
+
+2. Save the batch file on your desktop.
+
+3. Double-click the batch file to run the SecurityPlus Study Tool.
+
+## Contributing
+
+If you encounter issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+## Acknowledgments
+
+- Special thanks to Professor Messer for providing invaluable study resources.
+
+Happy studying! 📚✨
+```
