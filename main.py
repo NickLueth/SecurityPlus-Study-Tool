@@ -29,8 +29,8 @@ def load_json():
     for file in files:
         with open(file) as json_file:
             json_data = json.load(json_file)
-            # Substring the file name, so it stores nicer in the dictionary
-            topics[file[8:-5]] = json_data
+            file_name = file[8:-5]
+            topics[file_name] = json_data
     with open("data/links.json") as link_file:
         link_data = json.load(link_file)
         for item in link_data.items():
@@ -248,6 +248,8 @@ def view_progress():
     for acronym in acronyms.values():
         if acronym[2]:
             num_completed += 1
+    if num_completed == 446:
+        print("CONGRATULATIONS! YOU'RE READY TO TAKE YOUR TEST!")
     print(f"""Progress Report:
 General Security Concepts ({get_progress(topics['GSC'])})%
 Threats, Vulnerabilities, and Mitigations ({get_progress(topics["TVM"])})%
