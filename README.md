@@ -1,6 +1,6 @@
 # CompTIA SY0-701 Security+ Study Tool
 Created by: Nick Lueth <br>
-Last updated: 1/2/2024
+Last updated: 1/6/2024
 
 ## Overview
 
@@ -23,7 +23,7 @@ The SecurityPlus Study Tool is designed to assist in the preparation for the [Co
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/SecurityPlus-Study-Tool.git
+   git clone https://github.com/NickLueth/SecurityPlus-Study-Tool.git
    ```
 
 2. Navigate to the project directory:
@@ -36,11 +36,11 @@ The SecurityPlus Study Tool is designed to assist in the preparation for the [Co
 
    - **Command Line:**
      ```bash
-     python3 securityplus_study_tool.py
+     python3 main.py
      ```
 
    - **IDE:**
-     Open the project in your favorite IDE and run the `securityplus_study_tool.py` script.
+     Open the project in your favorite IDE and run the `main.py` file.
 
 ### Creating a Desktop Shortcut (Optional)
 
@@ -50,7 +50,7 @@ For easy access, consider creating a desktop shortcut or a batch file:
 
    ```batch
    cd path\to\your\SecurityPlus-Study-Tool
-   python3 securityplus_study_tool.py
+   python3 main.py
    ```
 
 2. Save the batch file on your desktop.
