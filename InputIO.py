@@ -33,7 +33,11 @@ def int_input_getter(prompt, num_range):
     """
     while True:
         try:
-            choice = int(input(prompt))
+            choice = input(prompt)
+            if choice.lower() == "b":
+                return 0
+            else:
+                choice = int(choice)
         # If there is a value error pass so the loop can restart.
         except ValueError:
             print("Please choose a valid number!")

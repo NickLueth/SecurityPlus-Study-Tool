@@ -2,22 +2,22 @@
     "AAA": [
         "Authentication, Authorization, and Accounting",
         "Security protocols for controlling access to computer systems.",
-        false
+        true
     ],
     "ACL": [
         "Access Control List",
         "A list of rules that specify which users or system processes are granted access to objects, as well as what operations are allowed on given objects.",
-        false
+        true
     ],
     "AES": [
         "Advanced Encryption Standard",
         "A widely-used symmetric encryption algorithm.",
-        false
+        true
     ],
     "AES-256": [
         "Advanced Encryption Standards 256-bit",
         "A variant of AES with a key length of 256 bits for enhanced security.",
-        false
+        true
     ],
     "AH": [
         "Authentication Header",
@@ -27,7 +27,7 @@
     "AI": [
         "Artificial Intelligence",
         "The simulation of human intelligence processes by machines, especially computer systems.",
-        false
+        true
     ],
     "AIS": [
         "Automated Indicator Sharing",
@@ -42,12 +42,12 @@
     "AP": [
         "Access Point",
         "A networking hardware device that allows a Wi-Fi device to connect to a wired network.",
-        false
+        true
     ],
     "API": [
         "Application Programming Interface",
         "A set of rules that allows one software application to interact with another.",
-        false
+        true
     ],
     "APT": [
         "Advanced Persistent Threat",
@@ -62,7 +62,7 @@
     "ARP": [
         "Address Resolution Protocol",
         "A protocol used to map an IP address to a physical machine address (MAC address) on a local network.",
-        false
+        true
     ],
     "ASLR": [
         "Address Space Layout Randomization",
@@ -82,12 +82,12 @@
     "AV": [
         "Antivirus",
         "Software designed to detect and remove malicious software (malware) from a computer or network.",
-        false
+        true
     ],
     "BASH": [
         "Bourne Again Shell",
         "A command processor that typically runs in a text window where the user types commands that cause actions.",
-        false
+        true
     ],
     "BCP": [
         "Business Continuity Planning",
@@ -107,7 +107,7 @@
     "BIOS": [
         "Basic Input/Output System",
         "Firmware used to perform hardware initialization during the booting process.",
-        false
+        true
     ],
     "BPA": [
         "Business Partners Agreement",
@@ -122,17 +122,17 @@
     "BYOD": [
         "Bring Your Own Device",
         "A policy allowing employees to bring personally owned devices to their workplace.",
-        false
+        true
     ],
     "CA": [
         "Certificate Authority",
         "A trusted entity that issues digital certificates used in public key cryptography.",
-        false
+        true
     ],
     "CAPTCHA": [
         "Completely Automated Public Turing Test to Tell Computers and Humans Apart",
         "A challenge-response test used to determine whether the user is human or automated software.",
-        false
+        true
     ],
     "CAR": [
         "Corrective Action Report",
@@ -157,7 +157,7 @@
     "CCTV": [
         "Closed-circuit Television",
         "A system of video cameras used for surveillance purposes.",
-        false
+        true
     ],
     "CERT": [
         "Computer Emergency Response Team",
@@ -177,7 +177,7 @@
     "CIA": [
         "Confidentiality, Integrity, Availability",
         "The three core principles of information security.",
-        false
+        true
     ],
     "CIO": [
         "Chief Information Officer",
@@ -257,7 +257,7 @@
     "CVE": [
         "Common Vulnerability Enumeration",
         "A system for identifying and naming cybersecurity vulnerabilities.",
-        false
+        true
     ],
     "CVSS": [
         "Common Vulnerability Scoring System",
@@ -282,7 +282,7 @@
     "DDoS": [
         "Distributed Denial of Service",
         "An attack in which multiple compromised computers are used to flood a target system with traffic.",
-        false
+        true
     ],
     "DEP": [
         "Data Execution Prevention",
@@ -297,7 +297,7 @@
     "DHCP": [
         "Dynamic Host Configuration Protocol",
         "A network management protocol used to dynamically assign IP addresses to devices on a network.",
-        false
+        true
     ],
     "DHE": [
         "Diffie-Hellman Ephemeral",
@@ -312,7 +312,7 @@
     "DLL": [
         "Dynamic Link Library",
         "A file containing code and data that can be used by multiple programs simultaneously.",
-        false
+        true
     ],
     "DLP": [
         "Data Loss Prevention",
@@ -332,12 +332,12 @@
     "DNS": [
         "Domain Name System",
         "A hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.",
-        false
+        true
     ],
     "DoS": [
         "Denial of Service",
         "An attack that makes a computer or network resource unavailable to its intended users.",
-        false
+        true
     ],
     "DPO": [
         "Data Privacy Officer",
@@ -437,12 +437,12 @@
     "FTP": [
         "File Transfer Protocol",
         "A standard network protocol used to transfer files from one host to another over a TCP-based network.",
-        false
+        true
     ],
     "FTPS": [
         "Secured File Transfer Protocol",
         "An extension of FTP that adds support for the Transport Layer Security (TLS) and the Secure Sockets Layer (SSL) protocols.",
-        false
+        true
     ],
     "GCM": [
         "Galois Counter Mode",
@@ -462,7 +462,7 @@
     "GPO": [
         "Group Policy Object",
         "A collection of settings that define what a system will look like and how it will behave for a defined group of users.",
-        false
+        true
     ],
     "GPS": [
         "Global Positioning System",
@@ -472,7 +472,7 @@
     "GPU": [
         "Graphics Processing Unit",
         "A specialized electronic circuit designed to accelerate the processing of images.",
-        false
+        true
     ],
     "GRE": [
         "Generic Routing Encapsulation",
@@ -487,7 +487,7 @@
     "HDD": [
         "Hard Disk Drive",
         "A non-volatile storage device that stores digitally encoded data on rapidly rotating platters with magnetic surfaces.",
-        false
+        true
     ],
     "HIDS": [
         "Host-based Intrusion Detection System",
@@ -517,27 +517,27 @@
     "HTML": [
         "Hypertext Markup Language",
         "The standard markup language for documents designed to be displayed in a web browser.",
-        false
+        true
     ],
     "HTTP": [
         "Hypertext Transfer Protocol",
         "Communication protocol for the web",
-        false
+        true
     ],
     "HTTPS": [
         "Hypertext Transfer Protocol Secure",
         "Secure version of HTTP",
-        false
+        true
     ],
     "HVAC": [
         "Heating, Ventilation Air Conditioning",
         "Technology for indoor climate control",
-        false
+        true
     ],
     "IaaS": [
         "Infrastructure as a Service",
         "Cloud computing service model",
-        false
+        true
     ],
     "IaC": [
         "Infrastructure as Code",
@@ -552,7 +552,7 @@
     "ICMP": [
         "Internet Control Message Protocol",
         "Network layer protocol for error messages",
-        false
+        true
     ],
     "ICS": [
         "Industrial Control Systems",
@@ -577,7 +577,7 @@
     "IDS": [
         "Intrusion Detection System",
         "Security system for detecting unauthorized access",
-        false
+        true
     ],
     "IEEE": [
         "Institute of Electrical and Electronics Engineers",
@@ -592,7 +592,7 @@
     "IM": [
         "Instant Messaging",
         "Real-time text communication",
-        false
+        true
     ],
     "IMAP": [
         "Internet Message Access Protocol",
@@ -607,22 +607,22 @@
     "IoT": [
         "Internet of Things",
         "Network of interconnected devices",
-        false
+        true
     ],
     "IP": [
         "Internet Protocol",
         "Communicates data across a network",
-        false
+        true
     ],
     "IPS": [
         "Intrusion Prevention System",
         "Security system for preventing unauthorized access",
-        false
+        true
     ],
     "IPSec": [
         "Internet Protocol Security",
         "Security protocol suite for IP",
-        false
+        true
     ],
     "IR": [
         "Incident Response",
@@ -632,7 +632,7 @@
     "IRC": [
         "Internet Relay Chat",
         "Real-time messaging protocol",
-        false
+        true
     ],
     "IRP": [
         "Incident Response Plan",
@@ -677,7 +677,7 @@
     "LAN": [
         "Local Area Network",
         "Network that spans a small geographic area",
-        false
+        true
     ],
     "LDAP": [
         "Lightweight Directory Access Protocol",
@@ -697,12 +697,12 @@
     "MAC": [
         "Message Authentication Code",
         "Authentication tag for ensuring data integrity",
-        false
+        true
     ],
     "MAN": [
         "Metropolitan Area Network",
         "Network that covers a larger geographic area than a LAN",
-        false
+        true
     ],
     "MBR": [
         "Master Boot Record",
@@ -732,7 +732,7 @@
     "MFD": [
         "Multifunction Device",
         "Device that performs multiple functions",
-        false
+        true
     ],
     "MFP": [
         "Multifunction Printer",
@@ -742,7 +742,7 @@
     "ML": [
         "Machine Learning",
         "Field of artificial intelligence",
-        false
+        true
     ],
     "MMS": [
         "Multimedia Message Service",
@@ -812,12 +812,12 @@
     "NAT": [
         "Network Address Translation",
         "Technique for modifying network address information",
-        false
+        true
     ],
     "NDA": [
         "Non-disclosure Agreement",
         "Legal agreement to protect confidential information",
-        false
+        true
     ],
     "NFC": [
         "Near Field Communication",
@@ -832,12 +832,12 @@
     "NIDS": [
         "Network-based Intrusion Detection System",
         "Security system for detecting network-based attacks",
-        false
+        true
     ],
     "NIPS": [
         "Network-based Intrusion Prevention System",
         "Security system for preventing network-based attacks",
-        false
+        true
     ],
     "NIST": [
         "National Institute of Standards & Technology",
@@ -877,7 +877,7 @@
     "OS": [
         "Operating System",
         "System software that manages computer hardware",
-        false
+        true
     ],
     "OSINT": [
         "Open-source Intelligence",
@@ -887,7 +887,7 @@
     "OSPF": [
         "Open Shortest Path First",
         "Routing protocol for internet protocol networks",
-        false
+        true
     ],
     "OT": [
         "Operational Technology",
@@ -912,12 +912,12 @@
     "P2P": [
         "Peer to Peer",
         "Network where each computer can act as both a client and a server",
-        false
+        true
     ],
     "PaaS": [
         "Platform as a Service",
         "Cloud computing service model",
-        false
+        true
     ],
     "PAC": [
         "Proxy Auto Configuration",
@@ -952,7 +952,7 @@
     "PCAP": [
         "Packet Capture",
         "File format for packet capture data",
-        false
+        true
     ],
     "PCI DSS": [
         "Payment Card Industry Data Security Standard",
@@ -992,12 +992,12 @@
     "PHI": [
         "Personal Health Information",
         "Health-related information tied to an individual",
-        false
+        true
     ],
     "PII": [
         "Personally Identifiable Information",
         "Information that can be used to identify an individual",
-        false
+        true
     ],
     "PIV": [
         "Personal Identity Verification",
@@ -1047,7 +1047,7 @@
     "PUP": [
         "Potentially Unwanted Program",
         "Software that may be unwanted by the user",
-        false
+        true
     ],
     "RA": [
         "Registration Authority",
@@ -1082,7 +1082,7 @@
     "RAT": [
         "Remote Access Trojan",
         "Malicious software allowing unauthorized remote access",
-        false
+        true
     ],
     "RBAC": [
         "Rule-based Access Control",
@@ -1097,12 +1097,12 @@
     "RDP": [
         "Remote Desktop Protocol",
         "Protocol for remote desktop access",
-        false
+        true
     ],
     "RFID": [
         "Radio Frequency Identifier",
         "Technology for wireless communication of data",
-        false
+        true
     ],
     "RIPEMD": [
         "RACE Integrity Primitives Evaluation Message Digest",
@@ -1112,7 +1112,7 @@
     "ROI": [
         "Return on Investment",
         "Performance measure for evaluating the efficiency of an investment",
-        false
+        true
     ],
     "RPO": [
         "Recovery Point Objective",
@@ -1152,7 +1152,7 @@
     "SaaS": [
         "Software as a Service",
         "Software delivery model",
-        false
+        true
     ],
     "SAE": [
         "Simultaneous Authentication of Equals",
@@ -1197,7 +1197,7 @@
     "SDK": [
         "Software Development Kit",
         "Set of tools for software development",
-        false
+        true
     ],
     "SDLC": [
         "Software Development Lifecycle",
@@ -1232,17 +1232,17 @@
     "SFTP": [
         "Secured File Transfer Protocol",
         "Ensures secure file transfer over a network",
-        false
+        true
     ],
     "SHA": [
         "Secure Hashing Algorithm",
         "Generates a fixed-size hash value from input data",
-        false
+        true
     ],
     "SHTTP": [
         "Secure Hypertext Transfer Protocol",
         "Secures data transfer over HTTP",
-        false
+        true
     ],
     "SIEM": [
         "Security Information and Event Management",
@@ -1267,17 +1267,17 @@
     "SMS": [
         "Short Message Service",
         "Allows the exchange of short text messages",
-        false
+        true
     ],
     "SMTP": [
         "Simple Mail Transfer Protocol",
         "Sends email messages between servers",
-        false
+        true
     ],
     "SMTPS": [
         "Simple Mail Transfer Protocol Secure",
         "Secures email communication using encryption",
-        false
+        true
     ],
     "SNMP": [
         "Simple Network Management Protocol",
@@ -1322,12 +1322,12 @@
     "SQL": [
         "Structured Query Language",
         "Manages and queries relational databases",
-        false
+        true
     ],
     "SQLi": [
         "SQL Injection",
         "Exploits vulnerabilities in SQL queries",
-        false
+        true
     ],
     "SRTP": [
         "Secure Real-Time Protocol",
@@ -1337,17 +1337,17 @@
     "SSD": [
         "Solid State Drive",
         "Uses NAND-based flash memory for data storage",
-        false
+        true
     ],
     "SSH": [
         "Secure Shell",
         "Provides secure remote access to systems",
-        false
+        true
     ],
     "SSL": [
         "Secure Sockets Layer",
         "Ensures secure communication over a network",
-        false
+        true
     ],
     "SSO": [
         "Single Sign-on",
@@ -1377,7 +1377,7 @@
     "TCP/IP": [
         "Transmission Control Protocol/Internet Protocol",
         "Defines how data is transmitted over the Internet",
-        false
+        true
     ],
     "TGT": [
         "Ticket Granting Ticket",
@@ -1432,12 +1432,12 @@
     "UAV": [
         "Unmanned Aerial Vehicle",
         "Autonomously operated aerial vehicle",
-        false
+        true
     ],
     "UDP": [
         "User Datagram Protocol",
         "Connectionless protocol for data transmission",
-        false
+        true
     ],
     "UEFI": [
         "Unified Extensible Firmware Interface",
@@ -1462,17 +1462,17 @@
     "URL": [
         "Universal Resource Locator",
         "Specifies the web address of a resource",
-        false
+        true
     ],
     "USB": [
         "Universal Serial Bus",
         "Standard for connecting devices to a computer",
-        false
+        true
     ],
     "USB OTG": [
         "USB On the Go",
         "Allows USB devices to act as hosts",
-        false
+        true
     ],
     "UTM": [
         "Unified Threat Management",
@@ -1502,22 +1502,22 @@
     "VLAN": [
         "Virtual Local Area Network",
         "Logical network segment for better traffic control",
-        false
+        true
     ],
     "VLSM": [
         "Variable Length Subnet Masking",
         "Customizes subnet masks for efficient IP address allocation",
-        false
+        true
     ],
     "VM": [
         "Virtual Machine",
         "Emulates a computer within a computer",
-        false
+        true
     ],
     "VoIP": [
         "Voice over IP",
         "Transmits voice communications over the Internet",
-        false
+        true
     ],
     "VPC": [
         "Virtual Private Cloud",
@@ -1527,7 +1527,7 @@
     "VPN": [
         "Virtual Private Network",
         "Secures communication over a public network",
-        false
+        true
     ],
     "VTC": [
         "Video Teleconferencing",
@@ -1542,7 +1542,7 @@
     "WAP": [
         "Wireless Access Point",
         "Connects wireless devices to a wired network",
-        false
+        true
     ],
     "WEP": [
         "Wired Equivalent Privacy",
@@ -1552,7 +1552,7 @@
     "WIDS": [
         "Wireless Intrusion Detection System",
         "Monitors and analyzes wireless network traffic",
-        false
+        true
     ],
     "WIPS": [
         "Wireless Intrusion Prevention System",
@@ -1587,21 +1587,21 @@
     "XML": [
         "Extensible Markup Language",
         "Markup language for encoding documents",
-        false
+        true
     ],
     "XOR": [
         "Exclusive Or",
         "Logical operation for combining binary values",
-        false
+        true
     ],
     "XSRF": [
         "Cross-site Request Forgery",
         "Type of malicious exploit of a website",
-        false
+        true
     ],
     "XSS": [
         "Cross-site Scripting",
         "Security vulnerability in web applications",
-        false
+        true
     ]
 }

@@ -1,7 +1,7 @@
 {
     "Threat Actors - 2.1": false,
     "Common Threat Vectors - 2.2": false,
-    "Phishing - 2.2": false,
+    "Phishing - 2.2": true,
     "Impersonation - 2.2": false,
     "Watering Hole Attacks - 2.2": false,
     "Other Social Engineering Attacks - 2.2": false,
@@ -28,7 +28,7 @@
     "DNS Attacks - 2.4": false,
     "Wireless Attacks - 2.4": false,
     "On-path Attacks - 2.4": false,
-    "Replay Attacks - CompTIA Security+ SY0-701- 2.4": false,
+    "Replay Attacks - 2.4": false,
     "Malicious Code - 2.4": false,
     "Application Attacks - 2.4": false,
     "Cryptographic Attacks - 2.4": false,

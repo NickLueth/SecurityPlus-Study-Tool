@@ -1,7 +1,7 @@
 # Security+ Learning Tool
 # Featuring: Professor Messer
 # Created by: Nick Lueth
-# Last updated: 1/2/2023
+# Last updated: 1/6/2023
 
 
 import webbrowser
@@ -104,10 +104,10 @@ def study():
 4. Security Operations ({get_progress(topics["SO"])}%)
 5. Security Program Management and Oversight ({get_progress(topics["SPMaO"])}%)
 6. Acronyms ({get_progress(acronyms)}%)
-7. Back
+B. Back
 Choice: """
         clear()
-        category_choice = int_input_getter(category_menu, range(1, 8))
+        category_choice = int_input_getter(category_menu, range(1, 7))
         if category_choice == 1:
             display_topics(topics["GSC"], "GSC")
         elif category_choice == 2:
@@ -132,11 +132,11 @@ def acronym_menu():
     menu = """How would you like to study acronyms?:
 1. Study random acronym
 2. Select from list
-3. Back
+B. Back
 """
     while True:
         clear()
-        choice = int_input_getter(menu, range(1, 4))
+        choice = int_input_getter(menu, range(1, 3))
         if choice == 1:
             get_random_acronym()
         elif choice == 2:
@@ -175,11 +175,12 @@ def display_acronyms():
     keys = list(acronyms.keys())
     clear()
     last_index = 0
+    print("Acronyms:")
     for i, topic in enumerate(acronyms.items()):
         new_menu += f"{i + 1}. {'[X]' if topic[1][2] else '[ ]'} {topic[0]} - {topic[1][1]} \n"
         last_index = i + 1
-    new_menu += f"{last_index + 1}. Back \nChoice: "
-    response = int_input_getter(new_menu, range(1, last_index + 2))
+    new_menu += f"B. Back \nChoice: "
+    response = int_input_getter(new_menu, range(1, last_index + 1))
     if response == last_index + 1:
         return
     else:
@@ -217,11 +218,15 @@ def display_topics(topic_dict, cat_name):
     keys = list(topic_dict.keys())
     clear()
     last_index = 0
+    titles = {"GSC": "General Security Concepts", "TVM": "Threats, Vulnerabilities, and Mitigations",
+              "SA": "Security Architecture", "SO": "Security Operations",
+              "SPMaO": "Security Program Management and Oversight"}
+    print(titles[cat_name] + ":")
     for i, topic in enumerate(topic_dict.items()):
         new_menu += f"{i+1}. {'[X]' if topic[1] else '[ ]'} {topic[0]} \n"
         last_index = i + 1
-    new_menu += f"{last_index+1}. Back \nChoice: "
-    response = int_input_getter(new_menu, range(1, last_index+2))
+    new_menu += f"B. Back \nChoice: "
+    response = int_input_getter(new_menu, range(1, last_index+1))
     if response == last_index+1:
         return
     else:
