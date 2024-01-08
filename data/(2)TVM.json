@@ -1,7 +1,7 @@
 {
     "Threat Actors - 2.1": false,
     "Common Threat Vectors - 2.2": false,
-    "Phishing - 2.2": true,
+    "Phishing - 2.2": false,
     "Impersonation - 2.2": false,
     "Watering Hole Attacks - 2.2": false,
     "Other Social Engineering Attacks - 2.2": false,
