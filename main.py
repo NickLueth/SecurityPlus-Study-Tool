@@ -181,7 +181,7 @@ def display_acronyms():
         last_index = i + 1
     new_menu += f"B. Back \nChoice: "
     response = int_input_getter(new_menu, range(1, last_index + 1))
-    if response == last_index + 1:
+    if response == 0:
         return
     else:
         solve_acronym(keys[response - 1])
@@ -227,7 +227,7 @@ def display_topics(topic_dict, cat_name):
         last_index = i + 1
     new_menu += f"B. Back \nChoice: "
     response = int_input_getter(new_menu, range(1, last_index+1))
-    if response == last_index+1:
+    if response == 0:
         return
     else:
         webbrowser.open(links[keys[response-1]])
