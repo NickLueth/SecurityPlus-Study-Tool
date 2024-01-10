@@ -1,7 +1,7 @@
 # Security+ Learning Tool
 # Featuring: Professor Messer
 # Created by: Nick Lueth
-# Last updated: 1/6/2023
+# Last updated: 1/9/2023
 
 
 import webbrowser
