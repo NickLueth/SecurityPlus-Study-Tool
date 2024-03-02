@@ -17,7 +17,7 @@ def yes_or_no_handler(prompt):
     while True:
         choice = input(prompt)
         if choice.lower() == 'y' or choice.lower() == 'n':
-            return choice
+            return choice.lower()
         else:
             print(f"{choice} is not y or n")
             input("Press enter to continue...")
