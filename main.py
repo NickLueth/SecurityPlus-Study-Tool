@@ -242,18 +242,15 @@ def view_progress():
     :return: None
     """
     clear()
-    total_topics = 327  # 327 is the total number of acronyms
+    total_topics = 0.0
     num_completed = 0
     cats = ['GSC', 'TVM', 'SA', 'SO', 'SPMaO']
     for cat in cats:
-        total_topics += len(topics[cat])
-        for topic in topics[cat].values():
-            if topic:
-                num_completed += 1
+        total_topics += float(get_progress(topics[cat]))
     for acronym in acronyms.values():
         if acronym[2]:
             num_completed += 1
-    if num_completed == 446:
+    if ((num_completed/321*100)+total_topics)/6 == 100.00:
         print("CONGRATULATIONS! YOU'RE READY TO TAKE YOUR TEST!")
     print(f"""Progress Report:
 General Security Concepts ({get_progress(topics['GSC'])})%
@@ -262,7 +259,7 @@ Security Architecture ({get_progress(topics["SA"])})%
 Security Operations ({get_progress(topics["SO"])})%
 Security Program Management and Oversight ({get_progress(topics["SPMaO"])})%
 Acronyms ({get_progress(acronyms)})%
-TOTAL: {(num_completed/total_topics)*100:.2f}%
+TOTAL: {((num_completed/321*100)+total_topics)/6:.2f}%
 """)
     input("Press enter to continue...")
 
