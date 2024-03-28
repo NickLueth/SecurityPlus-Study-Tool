@@ -1,6 +1,6 @@
 # CompTIA SY0-701 Security+ Study Tool
 Created by: Nick Lueth <br>
-Last updated: 3/6/2024
+Last updated: 3/28/2024
 
 ## Overview
 
