@@ -1,7 +1,7 @@
 # Security+ Learning Tool
 # Featuring: Professor Messer
 # Created by: Nick Lueth
-# Last updated: 1/9/2023
+# Last updated: 3/28/2023
 
 
 import webbrowser
@@ -17,6 +17,7 @@ acronyms = {}  # Load acronyms
 
 def main():
     load_json()
+    print(topics["GSC"])
     main_menu()
 
 
@@ -60,19 +61,128 @@ Choice: """
         elif choice == 2:
             view_progress()
         elif choice == 3:
-            reset()
+            reset_manager()
         elif choice == 4:
             save()
             exit(0)
 
 
-def reset():
+def reset_manager():
     """
     This function resets the progress of the user.
     :return: None
     """
-    clear()
-    print("ARE YOU SURE YOU WANT TO RESET YOUR PROGRESS????")
+    while True:
+        clear()
+        menu = """Which section would you like to reset?:
+1. All
+2. General Security Concepts
+3. Threats, Vulnerabilities, and Mitigations
+4. Security Architecture
+5. Security Operations
+6. Security Program Management and Oversight
+7. Acronyms
+b. Back
+"""
+        choice = int_input_getter(menu, range(1, 8))
+        if choice == 1:
+            reset_all()
+        elif choice == 2:
+            reset_gsc()
+        elif choice == 3:
+            reset_tvm()
+        elif choice == 4:
+            reset_sa()
+        elif choice == 5:
+            reset_so()
+        elif choice == 6:
+            reset_spmao()
+        elif choice == 7:
+            reset_acronyms()
+        else:
+            break
+
+
+def reset_gsc():
+    print("ARE YOU SURE YOU WANT TO RESET YOUR 'General Security Concepts' PROGRESS????")
+    proceed = input('Type: "proceed"\nResponse: ').lower()
+    if proceed.__eq__("proceed"):
+        for topic in topics["GSC"].items():
+            if topic[1]:
+                topics["GSC"][topic[0]] = False
+    else:
+        clear()
+        print("No changes were made.")
+        input("Press enter to continue...")
+
+
+def reset_tvm():
+    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Threats, Vulnerabilities, and Mitigations' PROGRESS????")
+    proceed = input('Type: "proceed"\nResponse: ').lower()
+    if proceed.__eq__("proceed"):
+        for topic in topics["TVM"].items():
+            if topic[1]:
+                topics["TVM"][topic[0]] = False
+    else:
+        clear()
+        print("No changes were made.")
+        input("Press enter to continue...")
+
+
+def reset_sa():
+    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Security Architecture' PROGRESS???")
+    proceed = input('Type: "proceed"\nResponse: ').lower()
+    if proceed.__eq__("proceed"):
+        for topic in topics["SA"].items():
+            if topic[1]:
+                topics["SA"][topic[0]] = False
+    else:
+        clear()
+        print("No changes were made.")
+        input("Press enter to continue...")
+
+
+def reset_so():
+    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Security Operations' PROGRESS???")
+    proceed = input('Type: "proceed"\nResponse: ').lower()
+    if proceed.__eq__("proceed"):
+        for topic in topics["SO"].items():
+            if topic[1]:
+                topics["SO"][topic[0]] = False
+    else:
+        clear()
+        print("No changes were made.")
+        input("Press enter to continue...")
+
+
+def reset_spmao():
+    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Security Program Management and Oversight' PROGRESS???")
+    proceed = input('Type: "proceed"\nResponse: ').lower()
+    if proceed.__eq__("proceed"):
+        for topic in topics["SPMaO"].items():
+            if topic[1]:
+                topics["SPMaO"][topic[0]] = False
+    else:
+        clear()
+        print("No changes were made.")
+        input("Press enter to continue...")
+
+
+def reset_acronyms():
+    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Acronyms' PROGRESS???")
+    proceed = input('Type: "proceed"\nResponse: ').lower()
+    if proceed.__eq__("proceed"):
+        for key in acronyms.keys():
+            if acronyms[key][2]:
+                acronyms[key][2] = False
+    else:
+        clear()
+        print("No changes were made.")
+        input("Press enter to continue...")
+
+
+def reset_all():
+    print("ARE YOU SURE YOU WANT TO RESET ALL OF YOUR PROGRESS???")
     proceed = input('Type: "proceed"\nResponse: ').lower()
     if proceed.__eq__("proceed"):
         cats = ['GSC', 'TVM', 'SA', 'SO', 'SPMaO']
@@ -83,7 +193,6 @@ def reset():
         for key in acronyms.keys():
             if acronyms[key][2]:
                 acronyms[key][2] = False
-        save()
     else:
         clear()
         print("No changes were made.")
