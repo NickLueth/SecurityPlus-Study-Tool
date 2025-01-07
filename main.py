@@ -87,80 +87,31 @@ b. Back
         if choice == 1:
             reset_all()
         elif choice == 2:
-            reset_gsc()
+            reset("GSC")
         elif choice == 3:
-            reset_tvm()
+            reset("TVM")
         elif choice == 4:
-            reset_sa()
+            reset("SA")
         elif choice == 5:
-            reset_so()
+            reset("SO")
         elif choice == 6:
-            reset_spmao()
+            reset("SPMaO")
         elif choice == 7:
             reset_acronyms()
         else:
             break
 
 
-def reset_gsc():
-    print("ARE YOU SURE YOU WANT TO RESET YOUR 'General Security Concepts' PROGRESS????")
+def reset(category):
+    categories = {"GSC": "General Security Concepts", "TVM": "Threats, Vulnerabilities, and Mitigations",
+                  "SA": "Security Architecture", "SO": "Security Operations",
+                  "SPMaO": "Security Program Management and Oversight"}
+    print(f"ARE YOU SURE YOU WANT TO RESET YOUR '{categories[category]}' PROGRESS????")
     proceed = input('Type: "proceed"\nResponse: ').lower()
     if proceed.__eq__("proceed"):
-        for topic in topics["GSC"].items():
+        for topic in topics[category].items():
             if topic[1]:
-                topics["GSC"][topic[0]] = False
-    else:
-        clear()
-        print("No changes were made.")
-        input("Press enter to continue...")
-
-
-def reset_tvm():
-    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Threats, Vulnerabilities, and Mitigations' PROGRESS????")
-    proceed = input('Type: "proceed"\nResponse: ').lower()
-    if proceed.__eq__("proceed"):
-        for topic in topics["TVM"].items():
-            if topic[1]:
-                topics["TVM"][topic[0]] = False
-    else:
-        clear()
-        print("No changes were made.")
-        input("Press enter to continue...")
-
-
-def reset_sa():
-    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Security Architecture' PROGRESS???")
-    proceed = input('Type: "proceed"\nResponse: ').lower()
-    if proceed.__eq__("proceed"):
-        for topic in topics["SA"].items():
-            if topic[1]:
-                topics["SA"][topic[0]] = False
-    else:
-        clear()
-        print("No changes were made.")
-        input("Press enter to continue...")
-
-
-def reset_so():
-    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Security Operations' PROGRESS???")
-    proceed = input('Type: "proceed"\nResponse: ').lower()
-    if proceed.__eq__("proceed"):
-        for topic in topics["SO"].items():
-            if topic[1]:
-                topics["SO"][topic[0]] = False
-    else:
-        clear()
-        print("No changes were made.")
-        input("Press enter to continue...")
-
-
-def reset_spmao():
-    print("ARE YOU SURE YOU WANT TO RESET YOUR 'Security Program Management and Oversight' PROGRESS???")
-    proceed = input('Type: "proceed"\nResponse: ').lower()
-    if proceed.__eq__("proceed"):
-        for topic in topics["SPMaO"].items():
-            if topic[1]:
-                topics["SPMaO"][topic[0]] = False
+                topics[category][topic[0]] = False
     else:
         clear()
         print("No changes were made.")
