@@ -17,7 +17,6 @@ acronyms = {}  # Load acronyms
 
 def main():
     load_json()
-    print(topics["GSC"])
     main_menu()
 
 
