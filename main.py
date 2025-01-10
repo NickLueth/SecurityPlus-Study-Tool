@@ -1,7 +1,7 @@
 # Security+ Learning Tool
 # Featuring: Professor Messer
 # Created by: Nick Lueth
-# Last updated: 1/7/2025
+# Last updated: 1/10/2025
 
 
 import webbrowser
@@ -46,12 +46,12 @@ def main_menu():
     This function displays the main menu and defines what code to execute based on the user's selection.
     :return: None
     """
-    menu = """Main menu:
-1. Study
-2. View Progress
-3. Reset Progress
-4. Save and Quit
-Choice: """
+    menu = ("Main menu:\n"
+            "1. Study\n"
+            "2. View Progress\n"
+            "3. Reset Progress\n"
+            "4. Save and Quit\n"
+            "Choice: ")
     while True:
         clear()
         choice = int_input_getter(menu, range(1, 5))
@@ -73,16 +73,15 @@ def reset_manager():
     """
     while True:
         clear()
-        menu = """Which section would you like to reset?:
-1. All
-2. General Security Concepts
-3. Threats, Vulnerabilities, and Mitigations
-4. Security Architecture
-5. Security Operations
-6. Security Program Management and Oversight
-7. Acronyms
-b. Back
-"""
+        menu = ("Which section would you like to reset?:\n"
+                "1. All\n"
+                "2. General Security Concepts\n"
+                "3. Threats, Vulnerabilities, and Mitigations\n"
+                "4. Security Architecture\n"
+                "5. Security Operations\n"
+                "6. Security Program Management and Oversight\n"
+                "7. Acronyms\n"
+                "b. Back\n")
         choice = int_input_getter(menu, range(1, 8))
         if choice == 1:
             reset_all()
@@ -156,15 +155,14 @@ def study():
     :return: None
     """
     while True:
-        category_menu = f"""Categories:
-1. General Security Concepts ({get_progress(topics["GSC"])}%)
-2. Threats, Vulnerabilities, and Mitigations ({get_progress(topics["TVM"])}%)
-3. Security Architecture ({get_progress(topics["SA"])}%)
-4. Security Operations ({get_progress(topics["SO"])}%)
-5. Security Program Management and Oversight ({get_progress(topics["SPMaO"])}%)
-6. Acronyms ({get_progress(acronyms)}%)
-B. Back
-Choice: """
+        category_menu = (f"Categories:\n1. General Security Concepts ({get_progress(topics["GSC"])}%)\n"
+                         f"2. Threats, Vulnerabilities, and Mitigations ({get_progress(topics["TVM"])}%)\n"
+                         f"3. Security Architecture ({get_progress(topics["SA"])}%)\n"
+                         f"4. Security Operations ({get_progress(topics["SO"])}%)\n"
+                         f"5. Security Program Management and Oversight ({get_progress(topics["SPMaO"])}%)\n"
+                         f"6. Acronyms ({get_progress(acronyms)}%)\n"
+                         f"B. Back\n"
+                         f"Choice: ")
         clear()
         category_choice = int_input_getter(category_menu, range(1, 7))
         if category_choice == 1:
@@ -188,11 +186,10 @@ def acronym_menu():
     This function manages the acronym menu options.
     :return: None
     """
-    menu = """How would you like to study acronyms?:
-1. Study random acronym
-2. Select from list
-B. Back
-"""
+    menu = ("How would you like to study acronyms?:\n"
+            "1. Study random acronym\n"
+            "2. Select from list\n"
+            "B. Back\n")
     while True:
         clear()
         choice = int_input_getter(menu, range(1, 3))
@@ -230,7 +227,7 @@ def display_acronyms():
     This function displays a list of all acronyms to study.
     :return: None
     """
-    new_menu = """"""
+    new_menu = ""
     keys = list(acronyms.keys())
     clear()
     last_index = 0
@@ -273,7 +270,7 @@ def display_topics(topic_dict, cat_name):
     :param cat_name: (str) The name of the category
     :return: None
     """
-    new_menu = """"""
+    new_menu = ""
     keys = list(topic_dict.keys())
     clear()
     last_index = 0
@@ -311,15 +308,14 @@ def view_progress():
             num_completed += 1
     if ((num_completed/321*100)+total_topics)/6 == 100.00:
         print("CONGRATULATIONS! YOU'RE READY TO TAKE YOUR TEST!")
-    print(f"""Progress Report:
-General Security Concepts ({get_progress(topics['GSC'])})%
-Threats, Vulnerabilities, and Mitigations ({get_progress(topics["TVM"])})%
-Security Architecture ({get_progress(topics["SA"])})%
-Security Operations ({get_progress(topics["SO"])})%
-Security Program Management and Oversight ({get_progress(topics["SPMaO"])})%
-Acronyms ({get_progress(acronyms)})%
-TOTAL: {((num_completed/321*100)+total_topics)/6:.2f}%
-""")
+    print(f"Progress Report:\n"
+          f"General Security Concepts ({get_progress(topics['GSC'])})%\n"
+          f"Threats, Vulnerabilities, and Mitigations ({get_progress(topics["TVM"])})%\n"
+          f"Security Architecture ({get_progress(topics["SA"])})%\n"
+          f"Security Operations ({get_progress(topics["SO"])})%\n"
+          f"Security Program Management and Oversight ({get_progress(topics["SPMaO"])})%\n"
+          f"Acronyms ({get_progress(acronyms)})%\n"
+          f"TOTAL: {((num_completed/321*100)+total_topics)/6:.2f}%\n")
     input("Press enter to continue...")
 
 
