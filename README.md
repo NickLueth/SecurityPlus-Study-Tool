@@ -1,6 +1,6 @@
 # CompTIA SY0-701 Security+ Study Tool
 Created by: Nick Lueth <br>
-Last updated: 1/10/2025
+Last updated: 1/11/2025
 
 ## Overview
 
@@ -16,7 +16,7 @@ The SecurityPlus Study Tool is designed to assist in the preparation for the [Co
 
 ### Prerequisites
 
-- Ensure you have Python3 installed on your machine.
+- Ensure you have Python3.8 or newer installed on your machine.
 
 ### Running the Script
 
