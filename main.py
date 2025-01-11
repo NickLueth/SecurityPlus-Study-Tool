@@ -5,7 +5,7 @@
 
 import webbrowser
 import json
-from InputIO import *
+from input_handler import *
 from random import randint
 
 # Global dictionaries to store topics, links, and acronyms
